@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div class="form-wrap">
+        
+        <form>
+            <h1>Sign Up Form</h1>
+            <input type="text" name="idName" id="" pattern="[A-za-z]{1,6}"  placeholder="Name" required />
+            <input type="date" placeholder="Date of Birth" required>
+            <input type="number" id="quantity" name="quantity" min="1" max="80" placeholder="Age" required>
+            <input type="text" placeholder="City" minlength="3" maxlength="15" required>
+            <input type="text"  name="idCountry" placeholder="Country" pattern="[A-za-z]{9}" required>
+            <input type="text" name="idNumber" pattern="[0-9]{6}" placeholder="Pincode" required />
+            <select name="education" id="education"required>
+                <option value="">Education</option>
+                <option value="B.E/B.Tech">B.E/B.Tech</option>
+                <option value="diploma">diploma</option>
+                <option value="B.SC">B.sc</option>
+                <option value="B.Com">B.Com</option>
+            </select>
+            <input type="number" id="quantity" name="quantity" min="1" max="50" placeholder="Years of Experience" required>
+            <input type="text" name="idNumber" pattern="[0-9]{6}" placeholder="Salary Expected" required />
+            <input type="submit" value="Sign Up">
+        </form>
+    
+    </div>
+</body>
+</html>
