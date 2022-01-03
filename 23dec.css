@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&family=Lexend+Mega:wght@300&family=Questrial&family=Quicksand:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0%;
+    font-family:Questrial;
+}
+body
+{
+    background-color:white;
+    padding: 0 20px;
+}
+.view
+{
+    max-width: 900px;
+    width: 100%;
+    max-height: auto;
+    background:white;
+    margin: 20px auto;
+    margin-right: 0%;
+    padding: 10px;
+    border-right-style: groove;
+}
+.table thead tr 
+{
+    margin-top: 0;
+}
+
+
+.col-md-8
+{
+/* width: 800px; */
+font-size: 14px;
+}
+.container .col-md-8
+{
+width: 350px;
+font-size: 14px;
+}
+.col-md-6 select
+{
+    height: 28px;
+    padding: 1px 5px;
+    line-height: 17px;
+    font-size: 14px;
+    width: 100%;
+    /* appearance: none; */
+}
+.col-md-3
+{
+width: 160px;
+font-size: 14px;
+}
+.col-md-3 select
+{
+    height: 28px;
+    padding: 1px 5px;
+    line-height: 17px;
+    font-size: 14px;
+    width: 100%;
+    /* appearance: none; */
+}
+.col-md-4
+{
+    max-width: 400px;
+    width: 100%;
+    max-height: auto;
+    background:white;
+    margin: 20px auto;
+    margin-left: 0%;
+    padding: 10px;
+    /* box-shadow: 1px 1px 2px rgba(0,0,0,0125); */
+}
+h5
+{
+    background-color: whitesmoke;
+}
+.transform
+{
+    height: 180px;
+    width: 300px;
+    position: relative;
+    background-color: #CFEDF9; 
+    transform: translate(120px,150px);
+    border-radius: 20px;
+}
+.transform:before
+{
+    position: absolute;
+    content:'';
+    width: 100%;
+    height: 95px;
+    top: 0;
+    left: -50px;
+    background-color: #CFEDF9;
+    transform: skewX(-40deg);
+    border-radius: 20px;
+}
+ .transform:after
+{
+    position:absolute;
+    content: '';
+    width: 30%;
+    height: 95px;
+    bottom: 0;
+    left: -50px;
+    background-color: #CFEDF9;
+    transform: skewX(40deg);
+    border-radius: 20px;
+} 
+.transform p
+{
+    height: 48px;
+    width: 216px;
+    color: #333333;
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 20px;
+    text-align: left;
+    transform: translate(30px,65px);
+}
+.no-gutter > [class*='col-']
+{
+    padding-right: 0;
+    padding-left: 0;
+}
+thead .th0
+{
+    transform: scaleY(-1);
+    width: 0%;
+    /* border-right: 3.5px solid white; */
+    border-bottom:3.5px solid white ;
+}
+ thead .th1
+{
+    width: 15%;
+    text-align: center;
+    border-right: 4px solid white;
+    border-bottom: 3.5px solid yellow;
+} 
+ thead .th2
+{
+    width: 15%;
+    text-align: center;
+    border-right: 4px solid white;
+    border-bottom: 3.5px solid #32AC41;
+}
+ thead .th3
+{
+    width: 15%;
+    text-align: center;
+    border-right: 4px solid white;
+    border-bottom: 3.5px solid orange;
+}
+ thead .th4
+{
+    width: 15%;
+    text-align: center;
+    border-right: 4px solid white;
+    border-bottom:3.5px solid yellow;
+}
+ thead .th5
+{
+    width: 15%;
+    text-align: center;
+    border-right: 4px solid white;
+    border-bottom: 3.5px solid orange;
+}
+ thead .th6
+{
+    width: 15%;
+    text-align: center;
+    border-right: 4px solid white;
+    border-bottom: 3.5px solid red;
+}
+tbody tr td
+{
+    text-align:center;
+}
+ul li 
+{
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+}
+/* tbody .straight0
+{
+    
+    height: 50px;
+} */
+/* tbody .straight1
+{
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    border-right: 3.5px solid orange;
+    width: 0%;
+    transform: scaleY(1) rotate(90deg);
+} */
+/* tbody .straight2
+{
+    border-top: 4px solid white;
+    border-right: 3.55px solid yellow;
+    padding: 17.6px;
+    transform: scaleY(1) rotate(90deg);
+    border-top-right-radius: 50px;
+} */
+
+/* tbody  .straight3
+{
+    border-top: 4px solid white;
+    border-right: 3.55px solid red;
+    transform: scaleY(-1) rotate(90deg);
+} */
+tr td ul li
+{
+    justify-content: center;
+}
+tr td .vertical0
+{
+    height: 91px;
+    width: 6px;
+    position: absolute;
+    background-color: #32AC41;
+    border-radius: 50px;
+    transform: translate(7px,-5px);
+}
+.bdr
+{
+    border-color: white;
+}
+ tr td .vertical0 p 
+{
+    margin-top: 35px;
+    padding-bottom: 20px;
+    transform: rotate(-90deg);
+    
+}
+td .vertical1
+{
+    height: 50px;
+}
+tr td .vertical1
+{
+    height: 91px;
+    width: 6px;
+    position: absolute;
+    background-color: orange;
+    border-radius: 50px;
+    transform: translate(7px,-5px);
+}
+ tr td .vertical1 p 
+{
+    margin-top: 4px;
+    width: 50px;
+    padding-bottom: 64px;
+    transform: rotate(-90deg);
+    
+}
+tr td .vertical2
+{
+    height: 109px;
+    width: 6px;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50px;
+    transform: translate(7px,-5px);
+}
+ tr td .vertical2 p 
+{
+    margin-top: 4px;
+    width: 50px;
+    padding-bottom: 64px;
+    transform: rotate(-90deg);
+}
+tr td .vertical3
+{
+    height: 91px;
+    width: 6px;
+    position: absolute;
+    background-color: red;
+    border-radius: 50px;
+    transform: translate(7px,-5px);
+}
+ tr td .vertical3 p 
+{
+    margin-top: 35px;
+    padding-bottom: 20px;
+    transform: rotate(-90deg);
+    
+}
+ /* .arrow0
+{
+    height: 6px;
+    width: 8px;
+    position: relative;
+    background-color: green; 
+    transform: translate(9px,5px);
+    transform: rotate(180deg);
+}
+.arrow0:before
+{
+    position: absolute;
+    content:'';
+    width: 50%;
+    height: 23px;
+    top: 0;
+    bottom: 6px;
+    background-color:white;
+    transform: skewX(40deg);
+}
+.arrow0:after
+{
+    position: absolute;
+    content:'';
+    width: 50%;
+    height: 14px;
+    top: 0;
+    bottom: 6px;
+    background-color:white;
+    transform: skewX(-40deg); 
+}  */
+/* .arrow1
+{
+    height: 6px;
+    width: 8px;
+    position: relative;
+    background-color: orange; 
+    transform: translate(0px,2px);
+}
+.arrow1:before
+{
+    position: absolute;
+    content:'';
+    width: 50%;
+    height: 23px;
+    top: 0;
+    bottom: 6px;
+    background-color:white;
+    transform: skewX(40deg);
+}
+.arrow1:after
+{
+    position: absolute;
+    content:'';
+    width: 50%;
+    height: 14px;
+    top: 0;
+    bottom: 6px;
+    background-color:white;
+    transform: skewX(-40deg); 
+}  */
+img
+{
+    transform: translateX(4px);
+}
